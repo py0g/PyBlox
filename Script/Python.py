@@ -22,7 +22,7 @@ def create_part_request():
 
 def start_gui():
     root = tk.Tk()
-    root.title("Roblox Part Creator")
+    root.title("ro 2 python")
 
     button = tk.Button(root, text="New Part", command=create_part_request)
     button.pack(pady=20)
